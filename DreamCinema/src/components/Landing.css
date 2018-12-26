@@ -1,0 +1,69 @@
+.landing,
+.create-account,
+.landing-logo {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+	margin: auto;
+}
+
+.landing {
+	margin-top:300px;
+}
+
+.landing-logo {
+	
+    text-align: center;
+	font-size:35px;
+}
+
+.landing > :not(:last-child),
+.create-account > :not(:last-child) {
+
+    margin-bottom: 12px;
+}
+
+.but {
+	width:50%;
+	height:50px;
+	color:white;
+	font-size:25px;
+	margin:auto;
+	background-color:black;
+	border: solid 1px white;
+	border-radius:4%;
+}
+.inp {
+	height:50px;
+	font-size:25px;
+}
+
+@media only screen and (max-width: 550px) {
+.landing,
+.create-account,
+.landing-logo  {
+		justify-content:center;
+		align-items:center;
+		margin-left: 10%;
+		margin-bottom:300px;
+		width:500px;
+
+	}
+	
+	.but {
+	width:300px;
+	height:50px;
+	color:white;
+	font-size:25px;
+	margin-left:30%;
+}
+
+.landing-logo {
+	font-size:25px;
+}
+.landing{
+	margin-top:-500px;
+}
+
+}

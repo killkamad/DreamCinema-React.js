@@ -1,0 +1,219 @@
+
+.copy{
+	font-size:18px;
+	margin-left:80%;
+}
+
+.block2 h3 {
+	font-size:30px;
+}
+
+body {
+	background:url(./Images/back22.jpg) no-repeat fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position:relative;
+}
+
+.App {
+	width:100%;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: auto;
+    margin-bottom: 48px;
+	margin: 0 auto;
+	
+}
+
+.content {
+	margin-top:50px;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+
+
+
+
+.block1{
+	margin-top:70px;
+	display:flex;
+	color:black;
+	font-size:70px;
+	width:100%;
+	justify-content:center;
+	 text-shadow: white 0 0 15px;
+}
+
+
+
+ .block2 {
+    width: 400px;
+    height: 650px;
+	border-radius:2%;
+	
+    margin-top: 50px;
+    margin-bottom: 50px;
+	color:white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+	border:solid 3px;
+	
+  }
+  
+ .imge {
+	margin-left: auto;
+	margin-right: auto;
+    display: block ;
+	width: 50%;
+ }
+
+.telo{
+    display: flex ;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+	margin-bottom:300px;
+}
+
+
+.font1{
+    font-size: 22px	;
+    padding: 0 10px;
+}
+
+
+footer{
+	border-top: 1px dashed ;
+	position: fixed;	
+	padding:5px;		
+	color: white;
+	background-color: black;
+	left: 0; bottom: 0;
+	width:100%;
+	text-align:center;
+	margin-bottom:0;
+}
+footer a {
+	margin-left:15px;
+	font-size:20px;
+	
+}
+
+
+@media screen and (min-width: 550px) {
+
+    .content {
+        width: 60%;
+    }
+}
+
+.footer_item {
+	margin-bottom:20px;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+
+
+
+.copy{
+	display:none;
+}
+
+footer h3 {
+	font-size:20px;
+}	
+
+footer a {
+	font-size: 10px;
+}
+	
+.block2 h3{
+	font-size:12px;
+	text-decoration:none;
+	padding:auto;
+	margin:auto;
+}
+
+.content{
+	margin-top: 750px;
+}	
+		
+.font1 {
+    font-size: 12px;
+	margin:auto;
+	padding:auto;
+}
+	
+  .block1 {
+	margin-top:50px;
+	display:flex;
+	font-size:50px;
+	justify-content:center;
+  }
+
+.block2 {
+	border:solid 3px;
+    display: flex;
+    flex-flow: row nowrap;
+
+	width:400px;
+	height:200px;
+	text-align:left;
+	
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    background-color: black;
+
+    padding: 0;
+
+    justify-content: space-between;
+    align-content: space-between;
+
+  }
+
+.block2 h3 {
+	margin-left:10px;
+}
+  .imge {
+    width:125px;
+	height:auto;
+    padding: auto;
+    margin: auto;
+}
+	
+
+	
+	.telo{
+	display: flex;
+	margin-bottom:200px;
+	margin-left:220px;
+	margin-top:-700px;
+	
+}
+
+
+.App {
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+	
+}
+	
+	
+}

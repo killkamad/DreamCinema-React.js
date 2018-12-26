@@ -1,0 +1,58 @@
+.messages-container {
+    width: 40%;
+    /*overflow-y: auto;*/
+	margin:auto;
+	margin-top:40px;
+	margin-bottom:15px;
+
+}
+
+.messages {
+
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+    height: 85%;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12px;
+
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.messages > :not(:last-child) {
+
+    margin-bottom: 12px;
+}
+
+.decor {
+	width:100%;
+	font-size:20px;
+}
+
+
+@media only screen and (max-width: 550px) {
+	.messages {
+		display:flex;
+		height:30%;
+		width:100%;
+	}
+	
+	
+	.decor {
+	width:450px;
+	font-size:20px;
+	margin-left:10px;
+}
+
+.messages-container {
+	margin-top:-650px;
+    width: 68%;
+	margin-left:195px;
+	margin-bottom:170px;
+    /*overflow-y: auto;*/
+}
+}
